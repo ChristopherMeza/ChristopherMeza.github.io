@@ -1,6 +1,7 @@
 @media only screen and (min-width: 64em) {
     header figure img {
         width: 1000px;
+
     }
 
     header h1 {
@@ -41,5 +42,7 @@
     .cities {
         display: flex;
         flex-direction: row;
+
     }
+
 }
