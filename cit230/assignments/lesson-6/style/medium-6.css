@@ -1,5 +1,6 @@
 @media only screen and (min-width: 37.5em) {
 
+
     nav button {
         display: none;
     }
@@ -23,7 +24,6 @@
         letter-spacing: 2px;
         text-align: center;
         font-size: 30px;
-        line-height: 40px;
 
     }
 
@@ -101,11 +101,4 @@
         color: #000;
         background-color: #777;
     }
-
-    /*gallery*/
-    .gallery-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
 }
