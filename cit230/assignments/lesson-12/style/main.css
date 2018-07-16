@@ -19,16 +19,24 @@ footer {
     text-align: center;
     letter-spacing: 0.005px;
     line-height: 20px;
-   
-    
+    margin: 10px;
+
 }
 
 header {}
 
-header h1 {}
+header h1 {
+    font-size: 30px;
+}
+
+header h2 {
+    font-size: 18px;
+}
 
 header img {
-    min-width: 300px;
+    min-width: 40%;
+    max-width: 100%;
+    padding-bottom: 18px;
 }
 
 header .subheading {}
@@ -47,14 +55,17 @@ nav ul li.active a {}
 
 nav ul li a:hover {}
 
-main {}
+main {
+    padding: 10px;
+}
 
 main h2 {}
 
 main figure {}
 
 main figure img {
-    min-width: 300px;
+    min-width: 40%;
+    max-width: 100%;
 }
 
 footer {

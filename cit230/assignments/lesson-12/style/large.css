@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1200px) {
 
     header figure img {
-        width: 40%;
+        max-width: 10%;
     }
 
     header h1 {
@@ -9,9 +9,13 @@
 
     header h2 {
        }
-
+    main{
+        object-position: left;
+        text-align: right;
+    }
     main figure img {
-        width: 30%;
+        float: left;
+        max-width: 10%;
     }
 
     nav {
