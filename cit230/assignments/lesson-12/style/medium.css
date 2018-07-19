@@ -1,6 +1,5 @@
 @media only screen and (min-width: 750px) {
 
-
     nav button {
         display: none;
     }
@@ -9,10 +8,6 @@
         display: block;
     }
 
-    header figure img {
-        max-width: 40%;
-
-    }
 
     header h1 {
 
@@ -23,10 +18,10 @@
 
     header h2 {}
     main {}
-    main figure img {
 
-        max-width: 40%;
-        float: left;
+
+    h3 {
+        text-align: center;
     }
 
     /* Responsive table */

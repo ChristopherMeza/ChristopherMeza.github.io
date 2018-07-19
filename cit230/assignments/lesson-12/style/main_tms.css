@@ -62,54 +62,54 @@ main {
 
 main h2 {}
 
-main figure {}
-
-main figure img {
+main figure {
     min-width: 40%;
     max-width: 100%;
+    position: fixed;
 }
 
-footer {
-    font-size: 12px;
-    padding-top: 100px;
-    bottom: 0;
-    width: 100%;
-}
+main figure img {
 
-/*navigation bar*/
+    footer {
+        font-size: 12px;
+        padding-top: 100px;
+        bottom: 0;
+        width: 100%;
+    }
 
-.hamburger {}
+    /*navigation bar*/
+    .hamburger {}
 
-.navigation {
-    list-style: none;
-    padding-left: 0;
-}
+    .navigation {
+        list-style: none;
+        padding-left: 0;
+    }
 
-.navigation li {
-    display: none;
-}
+    .navigation li {
+        display: none;
+    }
 
-.navigation.responsive {
-    position: relative;
-}
+    .navigation.responsive {
+        position: relative;
+    }
 
-.navigation.responsive li {
-    background-color: #333;
-    display: block;
-    width: 100%;
-    margin: 2px 0;
-    border: 1px solid #ddd;
-}
+    .navigation.responsive li {
+        background-color: #333;
+        display: block;
+        width: 100%;
+        margin: 2px 0;
+        border: 1px solid #ddd;
+    }
 
-.navigation.responsive li a {
-    padding: 1rem;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: #eee;
-}
+    .navigation.responsive li a {
+        padding: 1rem;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: #eee;
+    }
 
-.navigation.responsive li a:hover {
-    color: #000;
-    background-color: #777;
-}
+    .navigation.responsive li a:hover {
+        color: #000;
+        background-color: #777;
+    }

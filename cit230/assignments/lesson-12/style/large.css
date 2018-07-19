@@ -1,27 +1,18 @@
 @media only screen and (min-width: 1200px) {
 
-    header figure img {
-        max-width: 10%;
-    }
+    header h1 {}
 
-    header h1 {
-      }
-
-    header h2 {
-       }
-    main{
+    header h2 {}
+    main {
         object-position: left;
         text-align: right;
     }
-    main figure img {
-        float: left;
-        max-width: 10%;
-    }
+}
 
-    nav {
-        margin: 0 auto;
-        width: 80%;
-    }
+nav {
+    margin: 0 auto;
+    width: 80%;
+}
 
 
 }
