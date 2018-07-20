@@ -88,6 +88,7 @@ main img {
 p {
     font-size: 16px;
     letter-spacing: 2px;
+    padding-bottom: 25px;
 }
 
 p b {
@@ -124,6 +125,9 @@ h5 {
     text-align: center;
     font-size: 20px;
 }
+
+
+
 
 /*navigation bar*/
 
