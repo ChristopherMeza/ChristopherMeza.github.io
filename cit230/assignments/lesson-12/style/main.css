@@ -8,8 +8,8 @@ head body {}
 
 body {
     font-family: 'Wendy One', sans-serif;
-
-    background-color: cornsilk;
+    background-color: deepskyblue;
+    
 }
 
 header,
@@ -160,7 +160,8 @@ h5 {
     text-align: center;
     display: block;
     text-decoration: none;
-    color: #eee;
+    color: rebeccapurple;
+    
 }
 
 .navigation.responsive li a:hover {

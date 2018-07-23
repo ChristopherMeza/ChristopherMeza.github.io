@@ -8,8 +8,7 @@
     header h2 {}
     main {
         object-position: left;
-        text-align: right;
-    }
+        }
 }
 
 nav {

@@ -6,12 +6,13 @@
 </head>
 
 <body>
-    <script src="scripts/w3.js"></script>
-    <header w3-include-html="/modules/header-mod.html">
+    <header w3-include-html="modules/header.html">
+        <script src="scripts/w3.js"></script>
     </header>
-    <nav>
 
+    <nav w3-include-html="modules/nav.html">
     </nav>
+
     <main>
         <h4>Please use the following form to email us.</h4>
 
@@ -45,12 +46,16 @@
             <input type="submit" value="Send">
         </form>
     </main>
+
+    <footer w3-include-html="/modules/footer.html">
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
+</html>
 
-<footer w3-include-html="/modules/footer-mod.html">
-</footer>
 
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/w3.js"></script>
-<script src="scripts/modularize.js"></script>
-<script src="scripts/hamburger.js"></script>
+
