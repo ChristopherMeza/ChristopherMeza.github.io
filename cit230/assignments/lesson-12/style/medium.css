@@ -26,6 +26,8 @@
     h3 {
         text-align: center;
     }
+    
+   
 
     /* Responsive table */
     table {
@@ -37,8 +39,9 @@
     }
 
     tr th {
-        color: skyblue;
-        background-color: darkblue;
+        color: chartreuse;
+        background-color: #333;
+        padding-bottom: 
     }
     th,
     td {
@@ -48,6 +51,8 @@
         text-align: center;
     }
 
+    
+    
     /*NAVIGATION BAR*/
     header,
     nav {
@@ -78,7 +83,7 @@
     }
     .navigation a {
         display: block;
-        color: #eee;
+        color: chartreuse;
         padding: .5rem;
         text-align: center;
         text-decoration: none;
