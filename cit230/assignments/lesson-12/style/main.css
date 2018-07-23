@@ -125,9 +125,18 @@ h5 {
     font-size: 20px;
 }
 
- footer {
-        font-size: 14px;
-    }
+footer {
+    font-size: 14px;
+}
+
+body main div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 
 
@@ -161,8 +170,8 @@ h5 {
     text-align: center;
     display: block;
     text-decoration: none;
-   color: chartreuse;
-    
+    color: chartreuse;
+
 
 }
 
