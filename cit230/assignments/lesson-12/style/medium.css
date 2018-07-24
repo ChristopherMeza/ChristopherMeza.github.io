@@ -10,7 +10,7 @@
 
     header {
         margin-top: 100px;
-        line-height:30px;
+        line-height: 30px;
     }
     header h1 {
 
@@ -26,8 +26,8 @@
     h3 {
         text-align: center;
     }
-    
-   
+
+
 
     /* Responsive table */
     table {
@@ -41,18 +41,18 @@
     tr th {
         color: chartreuse;
         background-color: #333;
-        padding-bottom: 
+        padding-bottom:
     }
     th,
     td {
         background-color: azure;
-        text-align: left;
+        text-align: center;
         padding: 8px;
         text-align: center;
     }
 
-    
-    
+
+
     /*NAVIGATION BAR*/
     header,
     nav {
@@ -93,8 +93,3 @@
         background-color: #777;
     }
 
-    
-    /*Log In*/
-    
-
-}

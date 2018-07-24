@@ -131,14 +131,49 @@ footer {
 
 body main div ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 100px;
     padding: 0;
 }
 
+/*drop down*/
 
+main .shop {
+    text-align: center;
+    margin: 1px auto;
+    background-color: white;
+    border: 5px solid lightgreen;
+    color: lightblue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Wendy One', sans-serif;
+    width: 100px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
 
+h1 {
+    color: darkslateblue;
+}
 
+main .shop:hover {
+    background-color: antiquewhite;
+    color: white;
+}
 
+main section h1,
+h2,
+h3,
+h4,
+h5 {
+    padding-top: 25px;
+}
+
+main section img {
+    padding-bottom: 25px;
+}
 
 /*navigation bar*/
 
