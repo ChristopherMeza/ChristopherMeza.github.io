@@ -140,7 +140,7 @@ nav span {
   background: rgba(0, 0, 0, 0.5);
   padding: 27.7px;
   width: 50%;
-  
+
 }
 
 
@@ -257,12 +257,10 @@ footer {
   max-width: 72%;
 }
 
-/**staff footer**/
+/**staff, workshops footer**/
 .contentf {
   position: fixed;
   top: 910px;
-
- 
   height: 100px;
 }
 
@@ -283,6 +281,7 @@ footer {
   left: 500px;
 }
 
+/**h1, p**/
 .content3 h1 {
   font-family: 'Lustria', serif;
   position: relative;
@@ -309,13 +308,154 @@ footer {
 
 
 
-/**classes*/
-#classes h1,
-#classes p {
+/**workshop*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  position: relative;
+  top: 150px;
+  left: 250px;
+  border: 1px solid black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.column img {
+  width: 100%;
+}
+
+.content4 p,
+.content4 h1 {
   position: relative;
   top: 100px;
   padding-left: 20px;
 }
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+
+
+/**merchandise*/
+
+.market {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  width: 1800px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.market_category {
+  text-align: center;
+  text-decoration-line: underline;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.market_item img {
+  width: 500px;
+  height: auto;
+}
+
+.market_item1 img {
+  width: 250px;
+  height: auto;
+}
+
+.market_item2 img {
+  width: 250px;
+  height: auto;
+}
+
+
+
+
+/**shirt*/
+
+.market2 {
+ 
+}
+
+.market_category2 {
+  position: relative;
+  top: 200px;
+  left: 400px;
+  columns: 2;
+  text-align: left;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.market_item3 img {
+  width: 500px;
+  height: auto;
+}
+
+.content5 {
+  position: relative;
+  top: 40px;
+}
+
+.content5 h2, .content5 p {
+  padding-top: 10px;
+}
+
+.content5 p {
+  font-size: 22px;
+}
+
+
+/**button**/
+.button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: blue; 
+  color: white; 
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 10px  dotted #4CAF50;
+}
+
+
 
 
 

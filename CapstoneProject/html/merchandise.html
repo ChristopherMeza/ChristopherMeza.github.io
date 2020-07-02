@@ -1,51 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html id="staff">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>Rexburg Capoeira's Home</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+  <title>Rexoeira</title>
 </head>
 
 <header>
-  <script src="script.js"></script>
-</header>
-
-<nav>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Rexburg Capoeira</a>
-    <a href="staff.html">Our Staff</a>
-    <a href="classes.html">Classes</a>
-    <a href="cords.html">Cords</a>
-    <a href="events.html">Events</a>
-    <a href="merchandise.html">Merchandise</a>
-  </div>
-
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Rexburg Capoeira</span>
-</nav>
-
-<body>
-  <h1>
-    Merchandise
-  </h1>
-  <p>
-    As there is with any martial art, a uniform is required. For capoeira the uniform depends on the school which one
-    decides to attend. The styles, colors, and school name, will obviosly vary but the clothes are the same.
-    Along with the uniform, a student or fan may also purchase other accessories such as t-shirts which may be sold for
-    a specific event and for that event alone, instruments, cds, and a lot more.
-  </p>
-</body>
-
-
-<footer>
-  <hr>
-  <div class="leftcol">
-    <p id="info">&copy; Rexburg Capoeira 2020 || Christopher Meza </p>
-
-  </div>
+  <script src="../scripts/navbar.js"></script>
   <div class="rightcol">
     <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
         src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Ffacebook.png?1535064948632"
@@ -57,6 +22,147 @@
     <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon"
         src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Fyoutube.png?1535064973853" alt="youtube"></a>
   </div>
-</footer>
+</header>
+
+<body>
+  <nav>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Rexburg Capoeira</a>
+
+
+      <button class="dropdown-btn">Our Staff
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-container">
+        <a href="eddie.html">Mestre Eddie Morales</a>
+        <a href="christie.html">Christie June</a>
+      </div>
+
+      <a href="classes.html">Classes</a>
+      <a href="cords.html">Cords</a>
+      <a href="events.html">Events</a>
+      <a href="merchandise.html">Merchandise</a>
+    </div>
+
+    <span onclick="openNav()">&#9776; Rexburg Capoeira</span>
+  </nav>
+
+
+  <main>
+
+    <div class="content4">
+      <h1>Merchandise
+      </h1>
+      <p>
+        As there is with any martial art, a uniform is required. For capoeira the uniform depends on the school which
+        one
+        decides to attend. The styles, colors, and school name, will obviosly vary but the clothes are the same.
+        Along with the uniform, a student or fan may also purchase other accessories such as t-shirts which may be sold
+        for
+        a specific event and for that event alone, instruments, training material, and a lot more.
+      </p>
+      <br>
+      <br>
+    </div>
+
+
+
+
+
+
+
+    <div class="market">
+      <div class="market_category">
+        <h2>Clothes</h2>
+        <div class="market_item">
+          <a href="shirt.html">
+          <img src="../images/merchandise/shirt.png" alt="shirt">
+        </a>
+        </div>
+        <br>
+        <br>
+        <div class="market_item">
+          <a href="pants.html">
+          <img src="../images/merchandise/pants.png" alt="pants">
+        </a>
+        </div>
+      </div>
+
+      <div class="market_category">
+        <h2>Instruments</h2>
+        <div class="market_item1">
+          <a href="drum.html">
+          <img src="../images/merchandise/drum.png" alt="drum">
+        </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="market_item1">
+          <a href="birimbau.html">
+          <img src="../images/merchandise/birimbau.png" alt="birimbau">
+        </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="market_item1">
+          <a href="pandeiro.html">
+          <img src="../images/merchandise/pandeiro.png" alt="pandeiro">
+        </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="market_item1">
+          <a href="agogo.html">
+          <img src="../images/merchandise/agogo.png" alt="agogo">
+        </a>
+        </div>
+      </div>
+
+      <div class="market_category">
+        <h2>Training Material</h2>
+        <div class="market_item2">
+          <a href="book1.html">
+          <img src="../images/merchandise/book1.jpg" alt="book1">
+        </a>
+        </div>
+        <br>
+        <br>
+        <div class="market_item2">
+          <a href="book2.html">
+          <img src="../images/merchandise/book2.jpg" alt="book2">
+        </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    </main>
+
+  <footer class="contentf">
+    <div class="leftcol">
+      <p id="infof">Rexburg Capoeira 2020 || Christopher Meza</p>
+    </div>
+
+  </footer>
+
+
+
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/dropdown.js"></script>
+  <script src="../scripts/video.js"></script>
+
+
+</body>
 
 </html>
