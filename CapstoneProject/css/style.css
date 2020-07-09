@@ -379,29 +379,10 @@ span {
   padding: 10px;
 }
 
-.market_item img {
-  width: 500px;
-  height: auto;
-}
-
-.market_item1 img {
-  width: 250px;
-  height: auto;
-}
-
-.market_item2 img {
-  width: 250px;
-  height: auto;
-}
-
-
-
 
 /**shirt*/
 
-.market2 {
- 
-}
+
 
 .market_category2 {
   position: relative;
@@ -416,6 +397,16 @@ span {
 
 .market_item3 img {
   width: 500px;
+  height: auto;
+}
+
+.market_item4 img {
+  width: 300px;
+  height: auto;
+}
+
+.market_item5 img {
+  width: 300px;
   height: auto;
 }
 
@@ -952,3 +943,14 @@ span {
   top: -52.8em;
   left: 32em;
 }
+
+
+
+
+
+
+
+
+
+
+
