@@ -1,60 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="../css/style.css" />
-
+<head w3-include-html="../modules/head.html">
   <title>Rexoeira</title>
 </head>
 
-<header>
-  <div class="rightcol">
-    <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Ffacebook.png?1535064948632" alt="facebook"></a>
-
-    <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Ftwitter.png?1535064983601" alt="twitter"></a>
-
-    <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Fyoutube.png?1535064973853" alt="youtube"></a>
-</div>
+<header w3-include-html="../modules/header.html">
 </header>
 
 <body>
 
-  <nav>
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Rexburg Capoeira</a>
-
-
-      <button class="dropdown-btn">Our Staff
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-container">
-        <a href="eddie.html">Mestre Eddie Morales</a>
-        <a href="christie.html">Cristina Santos</a>
-      </div>
-
-      <a href="classes.html">Classes</a>
-      <a href="cords.html">Cords</a>
-      <a href="events.html">Events</a>
-      <a href="../merchandise.html" target="_blank">Merchandise</a>
-    </div>
-
-    <span onclick="openNav()">&#9776; Rexburg Capoeira</span>
+  <nav w3-include-html="../modules/nav.html">
   </nav>
 
 
   <main>
 
-      <video autoplay muted loop id="myVideo">
+    <video autoplay muted loop id="myVideo">
       <source src="../videos/capoeira.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
 
- 
+
     <div class="content">
       <h1>
         What is Capoeira?
@@ -69,19 +36,22 @@
         different
         to other martial arts as it does come with a ranking system, ceremonies, and forms of tournaments.
       </p>
+      
     </div>
+
 
   </main>
 
-  <footer class="content1">
-    <div class="leftcol">
-      <p id="info">Rexburg Capoeira 2020 || Christopher Meza</p>
-    </div>
-  
+
+
+  <footer w3-include-html="../modules/footer.html" class="content1">
+
   </footer>
 
 
-
+  <script src="../scripts/w3.js"></script>
+  <script src="../scripts/w3includehtml.js"></script>
+<script src="../scripts/modularize.js"></script>
   <script src="../scripts/navbar.js"></script>
   <script src="../scripts/dropdown.js"></script>
   <script src="../scripts/video.js"></script>
@@ -90,4 +60,3 @@
 </body>
 
 </html>
-

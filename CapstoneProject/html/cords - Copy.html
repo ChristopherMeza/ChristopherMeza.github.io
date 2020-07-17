@@ -1,26 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-us" id="staff">
+<html id="staff">
 
-<head w3-include-html="../modules/head.html">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
   <title>Rexoeira</title>
 </head>
 
-<header w3-include-html="../modules/header.html">
+<header>
+  <script src="../scripts/navbar.js"></script>
+  <div class="rightcol">
+    <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Ffacebook.png?1535064948632" alt="facebook"></a>
+
+    <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Ftwitter.png?1535064983601" alt="twitter"></a>
+
+    <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="https://cdn.glitch.com/a8f0439b-a199-4526-8d36-b1705c8453b1%2Fyoutube.png?1535064973853" alt="youtube"></a>
+</div>
 </header>
 
 <body>
-<div id="content0">
-  <nav w3-include-html="../modules/nav.html">
-  </nav>
+  <div id="content0">
+  <nav>
 
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Rexburg Capoeira</a>
+
+
+      <button class="dropdown-btn">Our Staff
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-container">
+        <a href="eddie.html">Mestre Eddie Morales</a>
+        <a href="christie.html">Cristina Santos</a>
+      </div>
+
+      <a href="classes.html">Classes</a>
+      <a href="cords.html">Cords</a>
+      <a href="events.html">Events</a>
+      <a href="../merchandise.html" target="_blank">Merchandise</a>
+    </div>
+
+    <span onclick="openNav()">&#9776; Rexburg Capoeira</span>
+  </nav>
 
 <main>
   <div id="rightcol" class="content4">
-      
       <h1>
       The Cord System
     </h1>
-      
     <p>
       As with many, if not all, forms of martial arts, a cord system is
       incorporated into its school system. In capoeira, there is not an official
@@ -38,19 +69,15 @@
     <br>
     <br>
     <br>
-      
     <div class="scroll">
     <div class="cords">
-        
       <div class="cord1">
         <div class="lightgreen1"></div>
         <p>
           light green
         </p>
       </div>
-        
       <br>
-        
       <div class="cord2">
         <div class="darkgreen2"></div>
          <p>
@@ -66,7 +93,6 @@
           light green - yellow
         </p>
       </div>
-        
       <br>
       <div class="cord4">
         <div class="darkgreen4"></div>
@@ -75,7 +101,6 @@
           dark green-yellow
         </p>
       </div>
-        
       <br>
       <div class="cord5">
         <div class="lightgreen5"></div>
@@ -84,7 +109,6 @@
           light green - dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord6">
         <div class="darkgreen6"></div>
@@ -93,7 +117,6 @@
           dark green - dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord7">
         <div class="yellow7"></div>
@@ -101,7 +124,6 @@
           yellow
         </p>
       </div>
-        
       <br>
       <div class="cord8">
         <div class="yellow8"></div>
@@ -110,7 +132,6 @@
           yellow - light blue
         </p>
       </div>
-        
       <br>
       <div class="cord9">
         <div class="yellow9"></div>
@@ -119,7 +140,6 @@
           yellow - dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord10">
         <div class="lightblue10"></div>
@@ -127,7 +147,6 @@
           light blue
         </p>
       </div>
-        
       <br>
       <div class="cord11">
         <div class="darkblue11"></div>
@@ -135,7 +154,6 @@
           dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord12">
         <div class="darkgreen12"></div>
@@ -145,7 +163,6 @@
           dark green - yellow - dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord13">
         <div class="darkgreen13"></div>
@@ -156,7 +173,6 @@
           dark green - yellow - dark blue - white
         </p>
       </div>
-        
       <br>
       <div class="cord14">
         <div class="white14"></div>
@@ -165,7 +181,6 @@
           white - dark green
         </p>
       </div>
-        
       <br>
       <div class="cord15">
         <div class="white15"></div>
@@ -174,7 +189,6 @@
           white - yellow
         </p>
       </div>
-        
       <br>
       <div class="cord16">
         <div class="white16"></div>
@@ -183,7 +197,6 @@
           white - dark blue
         </p>
       </div>
-        
       <br>
       <div class="cord17">
         <div class="white17"></div>
@@ -191,27 +204,26 @@
           white
         </p>
       </div>
-        
-        </div>
     </div>
     
 </div>
 </main>
 
+<footer class="contentf">
+  <div class="leftcol">
+    <p id="info">Rexburg Capoeira 2020 || Christopher Meza</p>
+  </div>
 
-    
- <footer w3-include-html="../modules/footer.html" class="contentf">
-  </footer>
-
-
-  <script src="../scripts/w3.js"></script>
-  <script src="../scripts/w3includehtml.js"></script>
-<script src="../scripts/modularize.js"></script>
-  <script src="../scripts/navbar.js"></script>
-  <script src="../scripts/dropdown.js"></script>
-  <script src="../scripts/video.js"></script>
-
-    </div>
+</footer>
+</div>
 </body>
+
+
+<script src="../scripts/navbar.js"></script>
+<script src="../scripts/dropdown.js"></script>
+<script src="../scripts/video.js"></script>
+
+
+
 
 </html>
