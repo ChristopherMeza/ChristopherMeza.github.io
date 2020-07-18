@@ -22,29 +22,7 @@
 
 <body>
   <div id="content0">
-  <nav>
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Rexburg Capoeira</a>
-
-
-      <button class="dropdown-btn">Our Staff
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-container">
-        <a href="eddie.html">Mestre Eddie Morales</a>
-        <a href="christie.html">Cristina Santos</a>
-      </div>
-
-      <a href="classes.html">Classes</a>
-      <a href="cords.html">Cords</a>
-      <a href="events.html">Events</a>
-      <a href="../merchandise.html" target="_blank">Merchandise</a>
-    </div>
-
-    <span onclick="openNav()">&#9776; Rexburg Capoeira</span>
+  <nav w3-include-html="../modules/nav.html">
   </nav>
 
   <main id="eddie">
@@ -77,20 +55,20 @@
 
 </main>
 
-<footer class="contentf">
-  <div class="leftcol">
-    <p id="infof">Rexburg Capoeira 2020 || Christopher Meza</p>
-  </div>
+    
+    
+     <footer w3-include-html="../modules/footer.html" class="contentf">
 
-</footer>
-</div>
-</body>
+    </footer>
 
 
-<script src="../scripts/navbar.js"></script>
-<script src="../scripts/dropdown.js"></script>
-<script src="../scripts/video.js"></script>
+    <script src="../scripts/w3.js"></script>
+    <script src="../scripts/w3includehtml.js"></script>
+    <script src="../scripts/modularize.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/video.js"></script>
 
- 
-
+ </div>
+    </body>
 </html>
