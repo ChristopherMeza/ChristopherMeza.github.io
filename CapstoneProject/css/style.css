@@ -71,7 +71,7 @@ nav {
 
 .sidenav a:hover,
 .dropdown-btn:hover {
-  color: greenyellow;
+  color: greenyellow !important;
 }
 
 .active {
