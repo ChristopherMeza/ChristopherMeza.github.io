@@ -72,14 +72,14 @@
     left: 40px;
   }
   
-  .content2 h1, .content3 h1 {
+  .content2 h1, .content3 h1, .content4 h1 {
         font-size: 32px;
     bottom: 420px;
     left: 20px;
     font-weight: bold;
       }
   
-  .content2 h2, .content h2 {
+  .content2 h2, .content h2  {
       font-size: 14px;
          left: 20px;
     top: -435px;
@@ -128,6 +128,36 @@
     border: none;
     padding: 20px;
 }
+
+
+
+
+/**cords**/
+
+.content4 {
+    max-width: 90%;
+}
+
+
+.lightgreen1, .darkgreen2, .yellow7, .lightblue10, .darkblue11, .white17, 
+.lightgreen3, .yellow3, .darkgreen4, .yellow4, .lightgreen5, .darkblue5, .darkgreen6,
+.darkblue6, .yellow8, .lightblue8, .yellow9, .darkblue9, .darkgreen12, .yellow12, 
+.darkblue12, .darkgreen13, .yellow13, .darkblue13, .white13, .white14, .darkgreen14,
+.white15, .yellow15, .white16, .darkblue16 {
+  position: relative;
+ margin-left: 80px;
+  width: 200px;
+}
+
+.content4 p {
+    padding-left: 0;
+}
+
+.cord1 p, .cord2 p, .cord3 p, .cord4 p, .cord5 p, .cord6 p, .cord7 p, .cord8 p, 
+.cord9 p, .cord10 p, .cord11 p, .cord12 p, .cord13 p, .cord14 p, .cord15 p, .cord16 p, 
+.cord17 p {
+    visibility: hidden;
+  }
 
 
 }
