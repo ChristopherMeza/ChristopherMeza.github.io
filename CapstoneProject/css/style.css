@@ -109,27 +109,7 @@ dropdown content */
   padding-right: 8px;
 }
 
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
 
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-}
 
 nav span {
   top: 0px;
