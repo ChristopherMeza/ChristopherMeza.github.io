@@ -56,7 +56,18 @@
 
     /**footer**/
     footer {
-        top: -5px;
+              top: -5px;
     }
 
 }
+
+
+
+/**Eddie**/
+
+/**footer**/
+.contentf {
+    position: relative;
+    top: -5px;
+    height: auto;
+  }
