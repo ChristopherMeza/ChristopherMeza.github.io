@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 360px) {
 
     /**page size**/
     #content0 {
@@ -9,20 +9,25 @@
     .rightcol {
         display: none !important;
     }
+    
+    /**nav**/
+    nav {
+         background-color: transparent;
+    }
+    
+    nav span {
+        display: inline !important;
+    }
 
+       
     /**paragraph font**/
     p {
         font-size: 24px;
     }
 
-
     /**video on homepage**/
 
-    body {
-        font-size: 18px;
-    }
-
-    #myVideo {
+   #myVideo {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -30,9 +35,15 @@
         height: 25%;
     }
 
+    
+     body {
+        font-size: 18px;
+    }
+    
+    
     .content {
         top: 700px;
-        width: 100%;
+        width: 80%;
         padding: 20px;
     }
 
