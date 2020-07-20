@@ -1,5 +1,5 @@
 /* Some media queries for responsiveness */
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 600px) {
     .sidenav {
         padding-top: 15px;
     }
@@ -20,7 +20,7 @@
     /**header**/
     .rightcol {
 
-        width: 50%;
+        width: 100%;
         right: 0px;
         padding: 20px;
 
