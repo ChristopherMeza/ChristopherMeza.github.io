@@ -19,11 +19,10 @@
 
     /**header**/
     .rightcol {
-margin: auto;
-        width: 50%;
-     
-        padding: 20px;
+        right: 100px !important;
+        width: none !important;
 
+        background-color: none !important;
     }
 
     .socialmedia {
@@ -146,7 +145,7 @@ margin: auto;
     }
 
 
-    
+
     /**footer**/
     footer {
 
@@ -170,6 +169,3 @@ margin: auto;
 
 
 }
-
-
-
