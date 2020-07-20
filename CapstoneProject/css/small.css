@@ -1,171 +1,39 @@
-/* Some media queries for responsiveness */
 @media screen and (min-width: 400px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-
 
     /**page size**/
     #content0 {
         max-width: 450px;
     }
 
-
-
     /**header**/
     .rightcol {
-        right: 100px !important;
-        width: none !important;
-
-        background-color: none !important;
+        display: none !important;
     }
-
-    .socialmedia {
-
-        padding-right: 15px;
-    }
-
-    .icon {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-    }
-
-
-    /**navbar**/
-
-
-    .sidenav {
-        height: 100%;
-        width: 0;
-
-        top: 0 !important;
-        left: 0;
-
-        padding-top: 60px;
-    }
-
-    .sidenav a,
-    .dropdown-btn {
-
-        padding: 8px 8px 8px 32px;
-
-        font-size: 36px;
-
-        width: 100%;
-
-    }
-
-
-
-    .sidenav .closebtn {
-
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
-    /* Dropdown container (hidden by default). 
-  Optional: add a lighter background color and 
-  some left padding to change the design of the 
-  dropdown content */
-    .dropdown-container {
-
-        padding-left: 20px;
-    }
-
-    .dropdown-container a {
-
-        font-size: 30px;
-    }
-
-    /* Optional: Style the caret down icon */
-    .fa-caret-down {
-
-        padding-right: 8px;
-    }
-
-
-
-    nav span {
-        top: 0px;
-
-        font-size: 30px;
-
-        padding: 27.7px;
-        width: 50%;
-
-    }
-
-
 
     /**paragraph font**/
     p {
-        font-size: 26px;
+        font-size: 24px;
     }
-
 
 
     /**video on homepage**/
 
-
     body {
-        margin: 0;
-
         font-size: 18px;
     }
 
     #myVideo {
-
-        right: 0;
-        bottom: 0;
-        min-width: 25%;
-        min-height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        height: 25%;
     }
 
     .content {
-
         top: 700px;
-
         width: 100%;
         padding: 20px;
     }
-
-    #myBtn {
-        width: 200px;
-        font-size: 18px;
-        padding: 10px;
-
-    }
-
-
-
-    /**footer**/
-    footer {
-
-        top: 700px;
-
-        width: 100%;
-        padding: 0px 20px;
-    }
-
-    .leftcol {
-
-        height: 90px;
-        margin-bottom: -50px;
-    }
-
-    #info {
-        font-size: 18px;
-
-    }
-
-
 
 }
