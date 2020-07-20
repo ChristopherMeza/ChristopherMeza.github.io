@@ -61,7 +61,7 @@
               top: -5px;
     }
 
-}
+
 
 
 
@@ -73,7 +73,7 @@
   }
   
   .content2 h1, .content3 h1 {
-        font-size: 36px;
+        font-size: 32px;
     bottom: 420px;
     left: 20px;
     font-weight: bold;
@@ -102,3 +102,32 @@
   .content p {
       padding: 15px 20px;
   }
+
+
+
+  /**classes**/
+
+  .content4 p, .content4 h1 {
+    top: 10px;
+    max-width: 90%;
+  }
+
+  .content4 h2 {
+      text-align: center;
+  }
+
+.row {
+    top: 10px;
+    left: 20px;
+    border: none;
+}
+
+.column {
+    float: none;
+    width: 90%;
+    border: none;
+    padding: 20px;
+}
+
+
+}
