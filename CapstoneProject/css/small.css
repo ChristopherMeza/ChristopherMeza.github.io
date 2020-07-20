@@ -4,25 +4,28 @@
     .rightcol {
         display: none;
         /**if header would be visible**/
-       top: -10px;
-       right: -30px;
-       position: fixed;
-       width: auto;
-       background: none;
-    }
-    
-    /**nav**/
-    nav {
-         background-color: black;
-    }
-    
-    nav span {
-       top: -15px;
-       width: 100%;
-       padding: 20px 20px;
+        top: -10px;
+        right: -30px;
+        position: fixed;
+        width: auto;
+        background: none;
     }
 
-       
+    /**nav**/
+    nav {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        height: 75px;
+    }
+
+    nav span {
+        position: relative;
+        top: 18px;
+        padding: 20px 25px;
+        left: 10px;
+    }
+
+
     /**paragraph font**/
     p {
         font-size: 24px;
@@ -30,30 +33,30 @@
 
     /**video on homepage**/
 
-   #myVideo {
-        display: auto;
-        position: fixed;
+    #myVideo {
+        position: relative;
         z-index: auto;
-        right: 0;
         bottom: 370px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         height: auto;
+        bottom: auto;
     }
 
-    
-     body {
+    body {
         font-size: 20px;
-        background-color: cornsilk;
     }
-    
-    
+
+
     .content {
-        position: fixed;
-        top: 270px;
-        width: 100%;
-        padding: 20px;
+        position: relative;
+        top: -5px;
+    }
+
+    /**footer**/
+    footer {
+        top: -5px;
     }
 
 }
