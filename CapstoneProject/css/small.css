@@ -23,11 +23,15 @@
     /**video on homepage**/
 
    #myVideo {
-        display: block;
+        display: auto;
+        position: fixed;
+        z-index: auto;
+        right: 0;
+        bottom: 370px;
         margin-left: auto;
         margin-right: auto;
-        width: 25%;
-        height: 25%;
+        width: 100%;
+        height: auto;
     }
 
     
