@@ -73,15 +73,15 @@
   }
   
   .content2 h1, .content3 h1 {
-        font-size: 20px;
+        font-size: 36px;
     bottom: 420px;
-    left: 10px;
+    left: 20px;
     font-weight: bold;
       }
   
   .content2 h2, .content h2 {
       font-size: 14px;
-         left: 10px;
+         left: 20px;
     top: -435px;
 }
   
