@@ -12,11 +12,7 @@
     }
 
     /**nav**/
-    nav {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        height: 75px;
-    }
+ 
 
     nav span {
         background: transparent;
