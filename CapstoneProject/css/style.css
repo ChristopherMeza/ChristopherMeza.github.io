@@ -13,8 +13,8 @@
 /**header**/
 .rightcol {
   top: 0px;
-  position: fixed;
-  width: 50%;
+  position: relative;
+  width: auto;
   right: 0px;
   padding: 20px;
   background: transparent;
