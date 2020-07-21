@@ -1,5 +1,5 @@
 /* Some media queries for responsiveness */
-@media screen and (min-width: 551px) {
+@media screen and (min-width: 550px) {
   /**header**/
   .rightcol {
     display: auto;
