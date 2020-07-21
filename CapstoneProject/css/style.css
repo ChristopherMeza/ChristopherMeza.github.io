@@ -395,7 +395,8 @@ span {
   top: 40px;
 }
 
-.content5 h2, .content5 p {
+.content5 h2,
+.content5 p {
   padding-top: 10px;
 }
 
@@ -416,14 +417,14 @@ span {
 }
 
 .button1 {
-  background-color: blue; 
-  color: white; 
+  background-color: blue;
+  color: white;
 }
 
 .button1:hover {
   background-color: #4CAF50;
   color: white;
-  border: 10px  dotted #4CAF50;
+  border: 10px dotted #4CAF50;
 }
 
 
@@ -436,74 +437,188 @@ span {
   overflow-x: hidden;
 }
 
-.lightgreen1, .darkgreen2, .yellow7, .lightblue10, .darkblue11, .white17, 
-.lightgreen3, .yellow3, .darkgreen4, .yellow4, .lightgreen5, .darkblue5, .darkgreen6,
-.darkblue6, .yellow8, .lightblue8, .yellow9, .darkblue9, .darkgreen12, .yellow12, 
-.darkblue12, .darkgreen13, .yellow13, .darkblue13, .white13, .white14, .darkgreen14,
-.white15, .yellow15, .white16, .darkblue16 {
+.lightgreen1,
+.darkgreen2,
+.yellow7,
+.lightblue10,
+.darkblue11,
+.white17,
+.lightgreen3,
+.yellow3,
+.darkgreen4,
+.yellow4,
+.lightgreen5,
+.darkblue5,
+.darkgreen6,
+.darkblue6,
+.yellow8,
+.lightblue8,
+.yellow9,
+.darkblue9,
+.darkgreen12,
+.yellow12,
+.darkblue12,
+.darkgreen13,
+.yellow13,
+.darkblue13,
+.white13,
+.white14,
+.darkgreen14,
+.white15,
+.yellow15,
+.white16,
+.darkblue16 {
   position: relative;
- margin-left: 20em;
+  margin-left: 20em;
   width: 39em;
 }
 
-.lightgreen1, .darkgreen2, .yellow7, .lightblue10, .darkblue11, .white17 {
+.lightgreen1,
+.darkgreen2,
+.yellow7,
+.lightblue10,
+.darkblue11,
+.white17 {
   border: 3px solid #000000;
   height: 6em;
- }
+}
 
-.lightgreen3, .yellow3, .darkgreen4, .yellow4, .lightgreen5, .darkblue5, .darkgreen6,
-.darkblue6, .yellow8, .lightblue8, .yellow9, .darkblue9, .darkgreen12, .yellow12, 
-.darkblue12, .darkgreen13, .yellow13, .darkblue13, .white13, .white14, .darkgreen14,
-.white15, .yellow15, .white16, .darkblue16  {
+.lightgreen3,
+.yellow3,
+.darkgreen4,
+.yellow4,
+.lightgreen5,
+.darkblue5,
+.darkgreen6,
+.darkblue6,
+.yellow8,
+.lightblue8,
+.yellow9,
+.darkblue9,
+.darkgreen12,
+.yellow12,
+.darkblue12,
+.darkgreen13,
+.yellow13,
+.darkblue13,
+.white13,
+.white14,
+.darkgreen14,
+.white15,
+.yellow15,
+.white16,
+.darkblue16 {
   border-left: 3px solid #000000;
   border-right: 3px solid #000000;
   height: 3em;
- }
+}
 
-.darkgreen12, .yellow12, .darkblue12 {
-   height: 2em;
- }
+.darkgreen12,
+.yellow12,
+.darkblue12 {
+  height: 2em;
+}
 
-.darkgreen13, .yellow13, .darkblue13, .white13 {
+.darkgreen13,
+.yellow13,
+.darkblue13,
+.white13 {
   height: 1.5em;
 }
 
-.lightgreen3, .darkgreen4, .lightgreen5, .darkgreen6, .yellow8, .yellow9, .darkgreen12,
-.darkgreen13, .white14, .white15, .white16 {
+.lightgreen3,
+.darkgreen4,
+.lightgreen5,
+.darkgreen6,
+.yellow8,
+.yellow9,
+.darkgreen12,
+.darkgreen13,
+.white14,
+.white15,
+.white16 {
   border-top: 3px solid #000000;
 }
 
-  .yellow3, .yellow4, .darkblue5, .darkblue6, .lightblue8, .darkblue9, .darkblue12,
-  .white13, .darkgreen14, .yellow15, .darkblue16 {
+.yellow3,
+.yellow4,
+.darkblue5,
+.darkblue6,
+.lightblue8,
+.darkblue9,
+.darkblue12,
+.white13,
+.darkgreen14,
+.yellow15,
+.darkblue16 {
   border-bottom: 3px solid #000000;
 }
 
-.lightgreen1, .lightgreen3, .lightgreen5 {
+.lightgreen1,
+.lightgreen3,
+.lightgreen5 {
   background-color: #90ee90;
 }
 
-.darkgreen2, .darkgreen4, .darkgreen6, .darkgreen12, .darkgreen13, .darkgreen14 {
+.darkgreen2,
+.darkgreen4,
+.darkgreen6,
+.darkgreen12,
+.darkgreen13,
+.darkgreen14 {
   background-color: #228b22;
 }
 
-.yellow3, .yellow4, .yellow7, .yellow8, .yellow9, .yellow12, .yellow13, .yellow15 {
+.yellow3,
+.yellow4,
+.yellow7,
+.yellow8,
+.yellow9,
+.yellow12,
+.yellow13,
+.yellow15 {
   background-color: #ffff00;
 }
 
-.darkblue5, .darkblue6, .darkblue9, .darkblue11, .darkblue12, .darkblue13, .darkblue16 {
+.darkblue5,
+.darkblue6,
+.darkblue9,
+.darkblue11,
+.darkblue12,
+.darkblue13,
+.darkblue16 {
   background-color: #0000cd;
 }
 
-.lightblue8, .lightblue10 {
+.lightblue8,
+.lightblue10 {
   background-color: #87cefa;
 }
 
-.white13, .white14, .white15, .white16, .white17 {
+.white13,
+.white14,
+.white15,
+.white16,
+.white17 {
   background-color: #ffffff;
 }
 
-.cord1 p, .cord2 p, .cord3 p, .cord4 p, .cord5 p, .cord6 p, .cord7 p, .cord8 p, 
-.cord9 p, .cord10 p, .cord11 p, .cord12 p, .cord13 p, .cord14 p, .cord15 p, .cord16 p, 
+.cord1 p,
+.cord2 p,
+.cord3 p,
+.cord4 p,
+.cord5 p,
+.cord6 p,
+.cord7 p,
+.cord8 p,
+.cord9 p,
+.cord10 p,
+.cord11 p,
+.cord12 p,
+.cord13 p,
+.cord14 p,
+.cord15 p,
+.cord16 p,
 .cord17 p {
   font-size: 36px;
   position: relative;
@@ -514,7 +629,7 @@ span {
 /** light green**/
 .lightgreen1 {
   top: 7em;
-  }
+}
 
 .cord1 p {
   top: 0em;
@@ -523,7 +638,7 @@ span {
 /** dark green**/
 .darkgreen2 {
   top: 0em;
- }
+}
 
 .cord2 p {
   top: -3em;
@@ -532,7 +647,7 @@ span {
 /** light green yellow**/
 .lightgreen3 {
   top: -7em;
-  }
+}
 
 .yellow3 {
   top: -7em;
@@ -545,7 +660,7 @@ span {
 /** dark green yellow**/
 .darkgreen4 {
   top: -14em;
- }
+}
 
 .yellow4 {
   top: -14em;
@@ -558,23 +673,23 @@ span {
 /** light green dark blue**/
 .lightgreen5 {
   top: -21em;
- }
+}
 
 .darkblue5 {
-   top: -21em;
+  top: -21em;
 }
 
 .cord5 p {
-   top: -12.9em;
- }
+  top: -12.9em;
+}
 
 /** dark green dark blue**/
 .darkgreen6 {
-   top: -28em;
-  }
+  top: -28em;
+}
 
 .darkblue6 {
-    top: -28em;
+  top: -28em;
 }
 
 .cord6 p {
@@ -618,7 +733,7 @@ span {
 
 /** light blue**/
 .lightblue10 {
-   top: -56em;
+  top: -56em;
 }
 
 .cord10 p {
@@ -627,7 +742,7 @@ span {
 
 /** dark blue**/
 .darkblue11 {
-    top: -63em;
+  top: -63em;
 }
 
 .cord11 p {
@@ -644,7 +759,7 @@ span {
 }
 
 .darkblue12 {
-    top: -70em;
+  top: -70em;
 }
 
 .cord12 p {
@@ -657,7 +772,7 @@ span {
 }
 
 .yellow13 {
-   top: -77em;
+  top: -77em;
 }
 
 .darkblue13 {
@@ -674,11 +789,11 @@ span {
 
 /** white dark green**/
 .white14 {
-   top: -84em;
+  top: -84em;
 }
 
 .darkgreen14 {
-   top: -84em;
+  top: -84em;
 }
 
 .cord14 p {
@@ -687,11 +802,11 @@ span {
 
 /** white yellow**/
 .white15 {
-   top: -91em;
+  top: -91em;
 }
 
 .yellow15 {
-    top: -91em;
+  top: -91em;
 }
 
 .cord15 p {
@@ -704,16 +819,16 @@ span {
 }
 
 .darkblue16 {
-   top: -98em;
+  top: -98em;
 }
 
 .cord16 p {
- top: -49.2em;
+  top: -49.2em;
 }
 
 /** white**/
 .white17 {
-   top: -105em;
+  top: -105em;
 }
 
 .cord17 p {
@@ -728,5 +843,3 @@ iframe {
   width: 700px;
   height: 500px;
 }
-
-
