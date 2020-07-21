@@ -112,7 +112,14 @@
     max-width: 90%;
   }
 
-  .content4 h2 {
+  .content4 p {
+      padding-left: 20px;
+  }
+
+  .content4 h1 {
+      left: auto;
+  }
+   .content4 h2 {
       text-align: center;
   }
 
