@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-
+@media screen and (max-width: 1980px) {
 
 /**page size**/
 #content0 {
@@ -16,7 +16,7 @@
 .rightcol {
   top: 0px;
   position: fixed;
-  width: 50%;
+  width: 100%;
   right: 0px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
@@ -120,7 +120,7 @@ nav span {
   position: fixed;
   font-size: 30px;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.5);
+  background: transparent;
   padding: 27.7px;
   width: 50%;
 
@@ -288,8 +288,6 @@ footer {
   left: 895px;
   max-width: 40%;
 }
-
-
 
 /**workshop*/
 * {
@@ -736,3 +734,4 @@ iframe {
 
 
 
+}
