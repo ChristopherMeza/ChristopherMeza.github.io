@@ -12,6 +12,7 @@
 
 /**header**/
 .rightcol {
+  display: initial;
   top: 0px;
   position: fixed;
   width: 100%;
