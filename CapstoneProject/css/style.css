@@ -7,17 +7,19 @@
 
 /**page size**/
 #content0 {
-  max-width: 1920px;
+  max-width: 1400px;
 }
+
+
 
 /**header**/
 .rightcol {
   top: 0px;
-  position: relative;
-  width: auto;
+  position: fixed;
+  width: 50%;
   right: 0px;
   padding: 20px;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   float: left;
 }
 
@@ -35,9 +37,6 @@
 
 /**navbar**/
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  height: 75px;
   font-family: 'Lustria', serif;
   color: #f1f1f1;
 }
@@ -118,12 +117,12 @@ dropdown content */
 nav span {
   top: 0px;
   font-family: "Lato", sans-serif;
-  position: relative;
+  position: fixed;
   font-size: 30px;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
   padding: 27.7px;
-  width: 100%;
+  width: 50%;
 
 }
 
