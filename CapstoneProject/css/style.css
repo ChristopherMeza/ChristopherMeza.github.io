@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@media screen and (max-width: 1400px) {
+
+
 /**page size**/
 #content0 {
   max-width: 1400px;
@@ -729,7 +732,7 @@ iframe {
   height: 500px;
 }
 
-
+}
 
 
 
