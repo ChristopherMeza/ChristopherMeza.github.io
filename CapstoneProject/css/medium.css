@@ -1,175 +1,174 @@
 /* Some media queries for responsiveness */
 @media screen and (max-width: 800px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-
-
-    /**page size**/
-    #content0 {
-        max-width: 450px;
-    }
-
-
-
-    /**header**/
-    .rightcol {
-
-        width: 100%;
-        right: 0px;
-        padding: 20px;
-
-    }
-
-    .socialmedia {
-
-        padding-right: 20px;
-    }
-
-    .icon {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-
-
-    /**navbar**/
-
-
-    .sidenav {
-        height: 100%;
-        width: 0;
-
-        top: 0 !important;
-        left: 0;
-
-        padding-top: 60px;
-    }
-
-    .sidenav a,
-    .dropdown-btn {
-
-        padding: 8px 8px 8px 32px;
-
-        font-size: 36px;
-
-        width: 100%;
-
-    }
-
-
-
-    .sidenav .closebtn {
-
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
-    /* Dropdown container (hidden by default). 
-  Optional: add a lighter background color and 
-  some left padding to change the design of the 
-  dropdown content */
-    .dropdown-container {
-
-        padding-left: 20px;
-    }
-
-    .dropdown-container a {
-
-        font-size: 30px;
-    }
-
-    /* Optional: Style the caret down icon */
-    .fa-caret-down {
-
-        padding-right: 8px;
-    }
-
-
-
-    nav span {
-        top: 0px;
-
-        font-size: 30px;
-
-        padding: 27.7px;
-        width: 50%;
-
-    }
-
-
-
-    /**paragraph font**/
-    p {
-        font-size: 26px;
-    }
-
-
-
-    /**video on homepage**/
-
-
-    body {
-        margin: 0;
-
-        font-size: 18px;
-    }
-
-    #myVideo {
-
-        right: 0;
-        bottom: 0;
-        min-width: 50%;
-        min-height: 50%;
-    }
-
-    .content {
-
-        top: 700px;
-
-        width: 100%;
-        padding: 20px;
-    }
-
-    #myBtn {
-        width: 200px;
-        font-size: 18px;
-        padding: 10px;
-
-    }
-
-
-
-    /**footer**/
-    footer {
-
-        top: 700px;
-
-        width: 100%;
-        padding: 0px 20px;
-    }
-
-    .leftcol {
-
-        height: 90px;
-        margin-bottom: -50px;
-    }
-
-    #info {
-        font-size: 18px;
-
-    }
-
-
-
+  /**header**/
+  .rightcol {
+    display: auto;
+    /**if header would be visible**/
+    top: -10px;
+    right: -30px;
+    position: relative;
+    width: auto;
+    background: none;
+}
+
+/**nav**/
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 75px;
+}
+
+nav span {
+    background: transparent;
+    position: relative;
+    top: 18px;
+    padding: 20px 25px;
+    left: 10px;
+    width: auto;
+}
+
+
+/**paragraph font**/
+p {
+    font-size: 24px;
+}
+
+/**video on homepage**/
+
+#myVideo {
+    position: relative;
+    z-index: auto;
+    bottom: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    bottom: auto;
+}
+
+body {
+    font-size: 20px;
+}
+
+
+.content {
+    position: relative;
+    top: -5px;
+}
+
+/**footer**/
+footer {
+          top: -5px;
 }
 
 
 
+
+
+/**Eddie & Cristina**/
+
+#eddie img, #christie img {
+ top: 170px;
+left: 40px;
+}
+
+.content2 h1, .content3 h1, .content4 h1 {
+    font-size: 32px;
+bottom: 420px;
+left: 20px;
+font-weight: bold;
+  }
+
+.content2 h2, .content h2  {
+  font-size: 14px;
+     left: 20px;
+top: -435px;
+}
+
+.content2 p, .content3 p {
+  bottom: -20px;
+left: 20px;
+max-width: 90%;
+text-align: left;
+}
+
+/**footer**/
+.contentf {
+position: relative;
+top: 28px;
+height: 100px;
+}
+
+.content p {
+  padding: 15px 20px;
+}
+
+
+
+/**classes**/
+
+.content4 p, .content4 h1 {
+top: 10px;
+max-width: 90%;
+}
+
+.content4 h2 {
+  text-align: center;
+}
+
+.row {
+top: 10px;
+left: 20px;
+border: none;
+}
+
+.column {
+float: none;
+width: 90%;
+border: none;
+padding: 20px;
+}
+
+
+
+
+/**cords**/
+
+.content4 {
+max-width: 90%;
+}
+
+
+.lightgreen1, .darkgreen2, .yellow7, .lightblue10, .darkblue11, .white17, 
+.lightgreen3, .yellow3, .darkgreen4, .yellow4, .lightgreen5, .darkblue5, .darkgreen6,
+.darkblue6, .yellow8, .lightblue8, .yellow9, .darkblue9, .darkgreen12, .yellow12, 
+.darkblue12, .darkgreen13, .yellow13, .darkblue13, .white13, .white14, .darkgreen14,
+.white15, .yellow15, .white16, .darkblue16 {
+position: relative;
+margin-left: 80px;
+width: 200px;
+}
+
+.content4 p {
+padding-left: 0;
+}
+
+.cord1 p, .cord2 p, .cord3 p, .cord4 p, .cord5 p, .cord6 p, .cord7 p, .cord8 p, 
+.cord9 p, .cord10 p, .cord11 p, .cord12 p, .cord13 p, .cord14 p, .cord15 p, .cord16 p, 
+.cord17 p {
+visibility: hidden;
+}
+
+
+/**calendar**/
+iframe {
+margin-left: 30px;
+width: 300px;
+height: 200px;
+}
+
+.content1 {
+margin-top: -670px;
+}
+
+}
