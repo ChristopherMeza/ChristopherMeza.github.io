@@ -1,5 +1,5 @@
 /* Some media queries for responsiveness */
-@media screen and (max-width: 800px) {
+
     .sidenav {
         padding-top: 15px;
     }
@@ -169,7 +169,7 @@
 
 
 
-}
+
 
 
 
