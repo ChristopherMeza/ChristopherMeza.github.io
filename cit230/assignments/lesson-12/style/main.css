@@ -1,7 +1,10 @@
-html {
+{
     box-sizing: border-box;
 }
 
+head {}
+
+head body {}
 
 body {
     font-family: 'Wendy One', sans-serif;
@@ -13,19 +16,19 @@ header,
 nav,
 main,
 footer {
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
     line-height: 20px;
     margin: 50px;
 }
 
+header {}
 
 header h1 {
     font-size: 30px;
 }
 
 header figure {
-    float: left;
     padding-bottom: 50px;
     display: block;
     margin-left: auto;
@@ -38,6 +41,7 @@ header h2 {
     padding-bottom: 50px;
 }
 
+header .subheading {}
 
 
 h1,
@@ -45,12 +49,21 @@ h3 {
     text-decoration: underline;
 }
 
+nav {}
 
+nav button {}
+
+nav ul {}
+
+nav ul li {}
 
 nav ul li a {
     letter-spacing: 2px;
 }
 
+nav ul li.active a {}
+
+nav ul li a:hover {}
 
 main {
     padding: 10px;
@@ -59,6 +72,9 @@ main {
     margin-right: auto;
 }
 
+main h2 {}
+
+main h3 {}
 
 main img {
     display: block;
