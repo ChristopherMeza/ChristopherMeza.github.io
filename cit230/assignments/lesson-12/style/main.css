@@ -29,6 +29,7 @@ header h1 {
 }
 
 header figure {
+    float: left;
     padding-bottom: 50px;
     display: block;
     margin-left: auto;
