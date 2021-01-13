@@ -41,13 +41,17 @@ header img {
 
   .topleft {
     position: absolute;
-    top: 8px;
+    top: 68px;
     left: 16px;
     font-size: 18px;
+    text-align: center;
   }
 
   .container img {
       width: 20%;
+      height: auto;
+    left: 10px;
+
   }
 
 header h2 {
