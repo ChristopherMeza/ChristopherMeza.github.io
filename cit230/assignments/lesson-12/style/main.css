@@ -25,14 +25,14 @@ header h1 {
 
   .topleft {
     position: absolute;
-    top: 68px;
+    top: 100px;
     left: 16px;
     font-size: 18px;
     text-align: center;
   }
 
   .container img {
-      width: 20%;
+      width: 10%;
       height: auto;
     left: 10px;
 
