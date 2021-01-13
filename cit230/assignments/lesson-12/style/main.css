@@ -35,13 +35,8 @@ h1{
       float: left;
   }
 
-h3 {
-    text-decoration: underline;
-}
 
-
-
-nav ul li a {
+  nav ul li a {
     letter-spacing: 2px;
 }
 
