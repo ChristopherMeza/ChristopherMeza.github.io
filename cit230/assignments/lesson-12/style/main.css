@@ -5,12 +5,9 @@ body {
     margin: 0 auto;
 }
 
-nav,
-main,
 footer {
     text-align: center;
     line-height: 20px;
-    margin: 50px;
 }
 
 nav,
@@ -34,13 +31,6 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-p {
-    font-size: 16px;
-    letter-spacing: 2px;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 p b {
