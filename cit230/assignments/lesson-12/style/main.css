@@ -34,8 +34,9 @@ header h1 {
   .container img {
       width: 10%;
       height: auto;
-      top: 0px;
-    left: 10px;
+      float: left;
+     /* top: 0px;
+    left: 10px;*/
 
   }
 
