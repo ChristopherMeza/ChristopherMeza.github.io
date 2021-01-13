@@ -1,7 +1,7 @@
 body {
-    font-family: 'Wendy One', sans-serif;
+    font-family: sans-serif;
     background-color: wheat;
-
+width: 90%;
 }
 
 nav,
@@ -25,7 +25,6 @@ header h1 {
       float: left;
      /* top: 0px;
     left: 10px;*/
-
   }
 
 h1,
