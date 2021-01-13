@@ -12,15 +12,11 @@
         margin-top: 100px;
         line-height: 30px;
     }
+
     header h1 {
-
         letter-spacing: 2px;
-
     }
-    header h2 {}
 
-    header figure img {}
-    main {}
 
 
     h3 {
@@ -41,8 +37,8 @@
     tr th {
         color: chartreuse;
         background-color: #333;
-        padding-bottom:
     }
+    
     th,
     td {
         background-color: azure;
@@ -88,8 +84,10 @@
         text-align: center;
         text-decoration: none;
     }
+
     .navigation a:hover {
         color: #000;
         background-color: #777;
     }
 
+}
