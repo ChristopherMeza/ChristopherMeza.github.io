@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
 }
 
-h1,
+header h1,
 footer {
     text-align: center;
     line-height: 20px;
@@ -101,13 +101,6 @@ main .shop:hover {
     color: white;
 }
 
-main section h1,
-h2,
-h3,
-h4,
-h5 {
-    padding-top: 25px;
-}
 
 main section img {
     padding-bottom: 25px;
