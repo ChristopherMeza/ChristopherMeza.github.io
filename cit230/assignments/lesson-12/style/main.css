@@ -1,7 +1,10 @@
+html {
+    width: 80%;;
+}
+
 body {
     font-family: sans-serif;
-    background-color: wheat;
-width: 90%;
+    background-color: antiquewhite;
 }
 
 nav,
