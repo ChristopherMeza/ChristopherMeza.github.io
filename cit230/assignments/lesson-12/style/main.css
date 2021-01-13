@@ -1,6 +1,6 @@
-{
+/*{
     box-sizing: border-box;
-}
+}*/
 
 head {}
 
@@ -29,10 +29,10 @@ header h1 {
 }
 
 header figure {
-    padding-bottom: 50px;
+   /* padding-bottom: 50px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 header h2 {
