@@ -66,6 +66,10 @@ body main div ul {
     padding: 0;
 }
 
+p b a {
+    margin-bottom: -5px;;
+}
+
 /*drop down*/
 
 main .shop {
