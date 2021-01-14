@@ -11,12 +11,6 @@ footer {
     line-height: 20px;
 }
 
-nav,
-main {
-    text-align: left;
-}
-
-
 header h1 {
     font-size: 36px;
 }
@@ -101,10 +95,6 @@ main .shop:hover {
     color: white;
 }
 
-
-main section img {
-    padding-bottom: 25px;
-}
 
 /*navigation bar*/
 
