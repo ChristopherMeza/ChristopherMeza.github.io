@@ -107,6 +107,11 @@
         hr {
             width: 50%;
         }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -116,8 +121,8 @@
             <li><a href="index.html">About Me</a></li>
             <li><a href="TabbedImageGallery.html">Photography</a></li>
             <li><a href="TypographyTabbed.html">Typography</a></li>
-            <li><a href="Mockups.html">Mockups</a></li>
-            <li><a class="active" href="WebDesignTabbed.html">Web Design</a></li>
+            <li><a href="webdesign.html">Web Design</a></li>
+            <li><a class="active" href="uiux.html">UI/ UX</a></li>
 
         </ul>
         <hr>
@@ -127,48 +132,29 @@
 <body>
 
     <div class="photography">
-        <h2>Web Design</h2>
-        <p>Click on image to view in full.</p>
+        <h2>UI/ UX</h2>
     </div>
 
     <!-- The four columns -->
     <div class="row">
-        <div class="column">
-            <img src="../MyPortfolio/images/chapter1large-01.jpg" alt="Chapter 1, page 1" style="width:100%"
-                onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="../MyPortfolio/images/chapter1large-02-01.jpg" alt="Chapter 1, pages 2-3" style="width:100%"
-                onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="../MyPortfolio/images/Layout 1.jpg" alt="Magazine Article using 5 columns" style="width:100%"
-                onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="../MyPortfolio/images/Layout2cb2.jpg" alt="Magazine Article using 7 columns" style="width:100%"
-                onclick="myFunction(this);">
-        </div>
-    </div>
+
+       
+
+        <iframe src="https://xd.adobe.com/embed/c29c784b-f577-4a6b-aafc-893713f99bdb-97cf/?fullscreen" style="border:0px #ffffff none;" 
+        name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
+
+        <br><br>
+                  
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FblaglA8m0gcyBpGAENuPxu%2F2020-Dating-App-
+        Interactive-Mockup%3Fnode-id%3D16%253A369%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+        <iframe width="800" height="600" src="https://xd.adobe.com/embed/75f6b2d3-250d-4a5b-9929-2c16e1456175-20a5/?fullscreen" frameborder="0" allowfullscreen></iframe>
 
     <br>
-    <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
-    </div>
+    
 
-    <!--open image-->
-    <script>
-        function myFunction(imgs) {
-            var expandImg = document.getElementById("expandedImg");
-            var imgText = document.getElementById("imgtext");
-            expandImg.src = imgs.src;
-            imgText.innerHTML = imgs.alt;
-            expandImg.parentElement.style.display = "block";
-        }
-    </script>
-
-</body>
+ </body>
 
 </html>
+
